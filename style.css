@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.home {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+nav {
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 98%;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+    background-color: aquamarine;
+    border-bottom: 1px solid white;
+    z-index: 1;
+}
+.logo {
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+}
+span {
+    color: whitesmoke;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: whitesmoke;
+    transition: 0,5s;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.image img {
+    height: 100%;
+    width: 1348px;
+    position: absolute;
+    left: 0px;
+    opacity: 80%;
+}
+.content image2 img {
+    position: absolute;
+    opacity: 100%;
+    left: o;
+}
+.content {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+h4 {
+    color: gainsboro;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+}
+h3 {
+    color: gainsboro;
+    font-size: 30px;
+}
+.content a {
+    font-size: 20px;    
+    color: black;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30p;
+}
+.content a:hover {
+    color: whitesmoke;
+    transition: 1s;
+}
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: gray;
+}
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img {
+    height: 50%;
+    width: 30%;
+    border-radius: 10px;
+}
+.about-text {
+    width: 600px;
+}
+.about-text h2 {
+    color: black;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.about-text h3 {
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.about-text p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid whitesmoke;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 1s;
+}
+.button:hover {
+    background-color: black;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+.services {
+    background: gray;
+    width: 100%;
+    padding: 100px 0;
+}
+.title h2 {
+    color: black;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    min-height: 15%;
+}
+.box {
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    min-height: 250px;
+}
+.card {
+    height: 300px;
+    width: 250px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: gainsboro;
+    border-radius: 20px;
+    margin: 0,5px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card h3 {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 1px;
+    white-space: nowrap;
+}
+.card p {
+    color: black;
+    margin-bottom: 10px;
+}
+.pra p {
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 100px;
+    text-align: justify;
+    text-align: center;
+}
+.pra p a {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.pra p a:hover {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.skill {
+    background-color: gray;
+    text-transform: capitalize;
+}
+.title {
+    color: whitesmoke;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.kontakperson {
+    height: 50%;
+    
+}
+.kontakperson h1 {
+    color: black;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: none;
+    text-transform: capitalize;
+}
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+    list-style: none;
+}
+.bar {
+    background: whitesmoke;
+    display: block;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0,3s;
+}
+.bar span {
+    height: 20px;
+    float: left;
+}
+.html {
+    width: 40%;
+    animation: HTML 3s;
+    background-color: red;
+    text-align: right;
+    color: black;
+}
+.css {
+    width: 30%;
+    animation: css 3s;
+    background-color: red;
+    text-align: right;
+    color: black;
+}
+.javascript {
+    width: 10%;
+    animation: 3s;
+    background-color: red;
+    text-align: right;
+    color: black;
+}
+.box {
+    display: flex;
+}
+.sosmed {
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    width: 20%;
+    height: 20%;
+}
+.sosmed i {
+    transform: scale(10);
+    text-align: center;
+}
+.sosmed p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.value {
+    color: darkblue;
+    text-transform: none;
+}
+footer {
+    text-align: center;
+}
