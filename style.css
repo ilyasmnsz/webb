@@ -223,18 +223,6 @@ h3 {
     padding: 20px;
     text-transform: capitalize;
 }
-.kontakperson {
-    height: 50%;
-    
-}
-.kontakperson h1 {
-    color: black;
-    font-size: 50px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: none;
-    text-transform: capitalize;
-}
 .skill li {
     margin: 20px 0;
     padding: 10px;
@@ -273,6 +261,18 @@ h3 {
     background-color: red;
     text-align: right;
     color: black;
+}
+.kontakperson {
+    height: 50%;
+    
+}
+.kontakperson h1 {
+    color: black;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: none;
+    text-transform: capitalize;
 }
 .box {
     display: flex;
